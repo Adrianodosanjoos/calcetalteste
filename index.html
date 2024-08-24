@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Gás-óleo</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincula ao arquivo CSS externo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form action="http://localhost:3000" method="POST">
+        <img src="/calcetal.png" alt="Imagem">
+
+        <h1 id="title">Controle de Gás-óleo</h1>
+
+        <label  for="nome"><i class="fa-solid fa-person"></i> Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="code"> <i class="fa-solid fa-key"></i> Code:</label>
+        <input type="number" id="code" required>
+
+        <label for="litros"><i class="fa-solid fa-gas-pump"></i> Litros:</label>
+        <input type="text" id="litros" required>
+
+        <label for="hora">Horas:</label>
+        <input type="time" id="hora" name="hora"  required>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+
+       
+        <a id="button" href="https://calcetal1.netlify.app/"> Enviar </a>
+    
+    </form>
+
+  <script src="/scripit.js"></script>
+</body>
+</html>

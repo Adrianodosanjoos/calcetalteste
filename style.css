@@ -1,0 +1,52 @@
+/* Estilos para centralizar o conteúdo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    margin: 0;
+    background: linear-gradient( to right, rgb(171, 22, 22),#fff, #000000);
+}
+
+/* Container para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo branco para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo para a imagem */
+img {
+    max-width: 100%; /* Limita a largura máxima ao tamanho do container */
+    height: auto;
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+/* Estilos para os labels e inputs */
+label, input {
+    width: 100%;
+    max-width: 300px; /* Largura máxima para os campos */
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+}
+
+/* Estilo para o botão de envio */
+#button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #f90909; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Mudança de cor do botão ao passar o mouse */
+#button:hover {
+    background-color: #000000; /* Azul mais escuro */
+    transform: scale(1.10);
+}
